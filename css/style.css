@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mogra&family=Shadows+Into+Light&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background:  #DFD8CA;
+  /* width: calc(100% - 33px); */
+}
+
+canvas {
+  position: absolute;
+
+}
+.container {
+  
+   display: flex; 
+  width: 100%;
+   justify-content: center;
+ align-items: center;
+  background-color: #DFD8CA;
+}
+.result-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+.result-container   {
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  margin: 5px 0;
+  color: white;
+  text-transform: capitalize;
+  background-color: #105652;
+  height:100px;
+  position:absolute;
+  top:500px;
+  
+  font-family: 'Shadows Into Light', cursive;
+ 
+}
+.result-container #emotion{
+  position:absolute;
+  left:200px;
+  border-style:solid;
+  border-radius: 50%;
+  padding: 20px;
+}
+.result-container #gender{
+  position:absolute;
+  left:520px;
+  border-style:solid;
+  border-radius: 50%;
+  padding: 20px;
+ 
+}
+.result-container #age{
+  position:absolute;
+  left:840px;
+  border-style:solid;
+  border-radius: 50%;
+  padding: 20px;
+
+}
+/* #age {
+  background: #DFD8CA;
+  color: black;
+}
+#emotion {
+  background: #FBF3E4;
+  color:black;
+}
+#gender {
+  background: #105652;
+} */
+video {
+  width: 100%;  
+}
+
+header {
+  background: #B91646;
+  color: #FBF3E4;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  height:40px;
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mogra', cursive;
+}
+
+.copy-right{
+  height:10px;
+  color:#105652;
+  padding: 50px;
+
+  text-align: center;
+}
