@@ -3,6 +3,9 @@
 ## Project name
 FaceElevate (Face Recognition Javascript)
 
+## Year
+2023
+
 ## Purpose
 A browser-based face analysis demo that estimates emotion, gender, and age from a live webcam feed for e-commerce personalization experiments.
 
